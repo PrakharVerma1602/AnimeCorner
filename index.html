@@ -1,0 +1,145 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="animecorner.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <title>Anime Corner</title>
+</head>
+
+<body>
+    <div class="app-navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo mb-0"><strong>Anime Corner</strong></h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list mb-0">
+                    <a href="#home"><li class="menu-list-item">Home</li></a>
+                    <a href="#new"><li class="menu-list-item">New</li></a>
+                    <a href="#AA"><li class="menu-list-item">Action/Adventure</li></a>
+                    <a href="#R"><li class="menu-list-item">Romance</li></a>
+                    <a href="#WW"><li class="menu-list-item">Worth a Wait</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar d-md-flex">
+        <a href="#home"><i class="left-menu-icon fas fa-home"></i></a>
+        <a href=""><i class="left-menu-icon fas fa-users"></i></a>
+        <a href=""><i class="left-menu-icon fas fa-tv"></i></a>
+        <a href="https://www.comicsense.store"><i class="left-menu-icon fas fa-shopping-cart"></i></a>
+    </div>
+    <div class="app-container" id="home">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('https://www.hindustantimes.com/ht-img/img/2023/03/28/1600x900/One_Piece_Wano_1679966485338_1679966497954_1679966497954.webp');">
+                <form class="d-flex mb-3">
+                    <input class="form-control me-2" type="search" id="find" placeholder="Search for Anime" aria-label="Search" onkeyup="search()">
+                    <!-- <button type="submit" class="btn btn-outline-light">Submit</button> -->
+                </form>
+                <img class="featured-title" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/One_Piece_Logo.svg/1200px-One_Piece_Logo.svg.png" alt="">
+                <p class="featured-desc">The series focuses on Monkey D. Luffy—a young man made of rubber after unintentionally eating a Devil Fruit—who sets off on a journey from the East Blue Sea to find the deceased King of the Pirates Gol D. Roger's ultimate treasure known as the "One Piece", and takeover his prior title.</p>
+                <button class="featured-button">DOWNLOAD</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="new">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="AA">ACTION / ADVENTURE</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('https://wealthofgeeks.com/wp-content/uploads/2021/11/Best-Kakegurui-Characters-11.jpg');">
+                <img class="featured-title" src="https://occ-0-1348-988.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABdpTapZsnzM_5lV_tWP0pSM-dkivxkOVfrsnTn2Ol13KnA7Zyp1BpWcv2QSj6V1efqQwGmHtBcUOr-M14e0OVEscplWYRllLF35UzxMVX31jIuTWqzYh6ok3RQPwOJvRmEe_HFlfYnDUolboIQXVeM77E0geAw8ejxyvObVSS1VqvHQX80BlUQ.png?r=cc6" alt="">
+                <p class="featured-desc">The plot of Kakegurui revolves around students who attend the Hyakkaou Private Academy. It is a school for the most wealthy and privileged individuals. The social hierarchy of the school is determined through a series of games where the students must wager their fortunes against one another.</p>
+                <button class="featured-button">DOWNLOAD</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="R">ROMANCE</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="WW">WORTH A WAIT</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+    <section>
+        <div class="modal fade" id="movieModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg bg-dark">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="main_video">
+                            <div class="video-container">
+                                <video src="" controls autoplay muted> 
+                                </video>
+                            </div>
+                        </div>
+                        <div class="movie-metadata mt-3 mb-1">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                        <div class="videolist">
+                            <div class="vid p-2 m-2 active " style="display: flex; cursor: pointer; background: #f7f7f7;">
+                                <video src="./videos/MASHLE.mp4" style="height: 168px;" controls></video>
+                                <h4 class="p-2">EP1</h4>
+                                <p class="p-2">This is a world of magic where magic is used for everything. But deep in the forest exists a young man who spends his time training.</p>
+                            </div>
+                            <div class="vid p-2 m-2" style="display: flex; cursor: pointer; background: #f7f7f7;" pointer>
+                                <video src="./videos/MADE.mp4" style="height: 168px;" controls ></video>
+                                <h4 class="p-2">EP2</h4>
+                                <p class="p-2">A girl and her robot companion search for her mother, who's lost within a vast chasm.</p>
+                            </div>
+                            <div class="vid p-2 m-2" style="display: flex; cursor: pointer; background: #f7f7f7;">
+                                <video src="./videos/Demon.mp4" style="height: 168px;" controls></video>
+                                <h4 class="p-2">EP3</h4>
+                                <p class="p-2">Tanjiro's journey to the Swordsmith Village to reunite with two Hashira, Mist Hashira Muichiro Tokito and Love Hashira Mitsuri Kanroji.</p>
+                            </div>
+                            <div class="vid p-2 m-2" style="display: flex; cursor: pointer; background: #f7f7f7;">
+                                <video src="./videos/VINLAND .mp4" style="height: 168px;" controls></video>
+                                <h4 class="p-2">EP4</h4>
+                                <p class="p-2">Einar, a young man from northern England, lives with his mother and younger sister in a peaceful farming village.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
